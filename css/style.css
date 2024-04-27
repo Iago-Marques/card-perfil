@@ -21,18 +21,18 @@ body{
 .svg-top{
    width: 200rem;
    margin-top: -140rem;
-   margin-left: -40rem;
+   margin-left: -45rem;
 }
 
 .svg-bottom{
    width: 200rem;
    margin-bottom: -140rem;
-   margin-right: -40rem;
+   margin-right: -45rem;
 }
 
 .container{
    background-color: white;
-   width:45rem;
+   width: 40rem;
    position: absolute;
    text-align: center;
    border-radius: 20px;
@@ -52,14 +52,14 @@ body{
    top: 22%;
    right: 35%;
    border-radius: 50%;
-   width: 14rem;
+   width: 12rem;
    border: solid 8px #fff;
    
 }
 
 h1{
-   margin-top: 10rem;
-   font-size: 2.5rem;
+   margin-top: 8rem;
+   font-size: 2.2rem;
    color: var(--cor-titulos)
 
 }
@@ -70,7 +70,7 @@ h1 span{
 }
 
 address{
-   margin: 1.5rem 0 3.5rem 0 ;
+   margin: 1.5rem 0 3rem 0 ;
    font-size: 2rem;
    font-weight: 400;
    color: var(--cor-p);
@@ -83,11 +83,12 @@ address{
 .card-informs{
    display: flex;
    justify-content: space-evenly;
+   align-items: center;
    margin: 3rem 0; 
 }
 
 .card-informs h2{
-   font-size: 2.4rem;
+   font-size: 1.8rem;
    color: var(--cor-titulos);
 }
 
