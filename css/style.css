@@ -15,24 +15,15 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
-   overflow: hidden;
-}
 
-.svg-top{
-   width: 200rem;
-   margin-top: -140rem;
-   margin-left: -45rem;
-}
-
-.svg-bottom{
-   width: 200rem;
-   margin-bottom: -140rem;
-   margin-right: -45rem;
+   background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+   background-repeat: no-repeat, no-repeat;
+   background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 
 .container{
    background-color: white;
-   width: 40rem;
+   width: 35rem;
    position: absolute;
    text-align: center;
    border-radius: 20px;
@@ -52,14 +43,14 @@ body{
    top: 22%;
    right: 35%;
    border-radius: 50%;
-   width: 12rem;
-   border: solid 8px #fff;
+   width: 10rem;
+   border: solid 4px #fff;
    
 }
 
 h1{
    margin-top: 8rem;
-   font-size: 2.2rem;
+   font-size: 2rem;
    color: var(--cor-titulos)
 
 }
@@ -70,8 +61,8 @@ h1 span{
 }
 
 address{
-   margin: 1.5rem 0 3rem 0 ;
-   font-size: 2rem;
+   margin: 1rem 0 3rem 0 ;
+   font-size: 1.6rem;
    font-weight: 400;
    color: var(--cor-p);
 }
@@ -87,12 +78,16 @@ address{
    margin: 3rem 0; 
 }
 
-.card-informs h2{
+.informs{
+   list-style-type: none;
+}
+
+.informs h2{
    font-size: 1.8rem;
    color: var(--cor-titulos);
 }
 
-.card-informs p{
+.informs p{
    font-size: 1.2rem;
    font-weight: 400;
    letter-spacing: 2px;
