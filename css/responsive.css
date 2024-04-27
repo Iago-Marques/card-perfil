@@ -1,0 +1,9 @@
+@media(max-width: 1500px){
+   .svg-top{
+      margin-top: -90rem;
+   }
+   
+   .svg-bottom{
+      margin-bottom: -90rem;
+   }
+}
